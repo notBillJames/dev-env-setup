@@ -5,6 +5,11 @@
       "alignment": "left",
       "segments": [
         {
+          "type": "python",
+          "foreground": "#FFE873",
+          "template": "  {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} "
+        },
+        {
           "foreground": "#F1FA8C",
           "properties": {
             "style": "folder"
