@@ -16,7 +16,7 @@
 						"branch_icon": ""
 					},
 					"style": "diamond",
-					"template": "<#ffffff> \ue702 </><b>{{ .HEAD }}</b> ",
+					"template": "<#ffffff>\ue702 </><b>{{ .HEAD }}</b> ",
 					"type": "git"
 				},
 				{
