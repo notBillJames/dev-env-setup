@@ -1,43 +1,43 @@
 {
-  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
-  "blocks": [
-    {
-      "alignment": "left",
-      "segments": [
-        {
-          "style": "plain",
-          "type": "python",
-          "foreground": "#FFE873",
-          "template": "<#0277bc>\ue606</> {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }}{{ end }} {{ .Major }}.{{ .Minor}}{{ end }}"
-        },
-        {
-          "foreground": "#0277bc",
-          "properties": {
-            "branch_icon": ""
-          },
-          "style": "diamond",
-          "template": "<#ffffff> \ue702 </><b>{{ .HEAD }}</b> ",
-          "type": "git"
-        },
-        {
-          "foreground": "#F1FA8C",
-          "properties": {
-            "style": "folder"
-          },
-          "style": "diamond",
-          "template": "<#42E66C>\ueaf7 </><b>{{ .Path }}</b> ",
-          "type": "path"
-        },
-        {
-          "foreground": "#FFFFFF",
-          "style": "plain",
-          "template": "$",
-          "type": "text"
-        }
-      ],
-      "type": "prompt"
-    }
-  ],
-  "final_space": true,
-  "version": 3
+	"$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+	"blocks": [
+		{
+			"alignment": "left",
+			"segments": [
+				{
+					"style": "plain",
+					"type": "python",
+					"foreground": "#FFE873",
+					"template": "<#0277bc>\ue606</> {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }}{{ end }} {{ .Major }}.{{ .Minor}}{{ end }} "
+				},
+				{
+					"foreground": "#0277bc",
+					"properties": {
+						"branch_icon": ""
+					},
+					"style": "diamond",
+					"template": "<#ffffff> \ue702 </><b>{{ .HEAD }}</b> ",
+					"type": "git"
+				},
+				{
+					"foreground": "#F1FA8C",
+					"properties": {
+						"style": "folder"
+					},
+					"style": "diamond",
+					"template": "<#42E66C>\ueaf7 </><b>{{ .Path }}</b> ",
+					"type": "path"
+				},
+				{
+					"foreground": "#FFFFFF",
+					"style": "plain",
+					"template": "$",
+					"type": "text"
+				}
+			],
+			"type": "prompt"
+		}
+	],
+	"final_space": true,
+	"version": 3
 }
