@@ -12,7 +12,7 @@
 				},
 				{
 					"foreground": "#0277bc",
-					"properties": {
+					"options": {
 						"branch_icon": ""
 					},
 					"style": "diamond",
@@ -21,7 +21,7 @@
 				},
 				{
 					"foreground": "#F1FA8C",
-					"properties": {
+					"options": {
 						"style": "folder"
 					},
 					"style": "diamond",
